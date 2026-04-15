@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+header {
+    padding-left: 100px;
+}
+
+header img {
+    width: 140px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    box-shadow: 10px inset #000;
+    gap: 15px;
+}
+
+.caixa-conteudo button {
+    width: 400px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.caixa-conteudo p {
+    font-size: 17px;
+    padding-left: 17px;
+}
+
+.caixa-conteudo p span {
+    color: rgb(44, 44, 224);
+    text-decoration: none;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 1px solid #f4f4f4;
+    width: 100%;
+}
+
+.infomarcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.infomarcoes input {
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 20px;
+}
