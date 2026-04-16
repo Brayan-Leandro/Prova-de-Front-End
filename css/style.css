@@ -44,7 +44,6 @@ section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
 
 .acessos img {
@@ -83,6 +82,7 @@ section {
 .divisao {
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
 }
 
 hr {
