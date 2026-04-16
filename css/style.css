@@ -8,11 +8,13 @@
 }
 
 header {
-    padding-left: 100px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 header img {
-    width: 140px;
+    width: 120px;
 }
 
 section {
@@ -28,20 +30,49 @@ section {
     width: 30%; 
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
-    box-shadow: 10px inset #000;
+    box-shadow: 3px 3px 20px 3px rgba(222, 218, 218, 0.5);
     gap: 15px;
+    border-radius: 10px;
 }
 
-.caixa-conteudo button {
-    width: 400px;
+.caixa-conteudo h1 {
+    padding-right: 260px;
+    padding-top: 40px;
+}
+
+.acessos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.acessos img {
+    width: 20px;
+}
+
+.acessos button {
+    width: 350px;
     height: 50px;
     border-radius: 40px;
+    background-color: #fff;
+    font-size: 15px;
+    transition: 0.7 ease;
+}
+
+.acessos button:hover {
+    background-color: #f7f3f3;
+}
+
+.apple {
+    color: #7a7979;
+    font-weight: 500;
 }
 
 .caixa-conteudo p {
-    font-size: 17px;
-    padding-left: 17px;
+    font-size: 15px;
+    padding: 0 37px;
+    font-weight: 350;
 }
 
 .caixa-conteudo p span {
@@ -65,16 +96,52 @@ hr {
     gap: 15px;
 }
 
-.infomarcoes input {
-    width: 400px;
-    height: 50px;
+.infomarcoes p {
+    color: rgb(24, 105, 211);
+}
+
+.conexoes {
+    display: flex;
+}
+
+.conexoes input {
+    width: 30px;
+    font-size: 20px;
+}
+
+.entrar {
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(57, 86, 166);
+    margin-bottom: 30px;
+}
+
+.email {
+    width: 350px;
+    height: 55px;
     padding-left: 20px;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1px solid #c6c1c1;
+    font-size: 20px;
+}
+
+.cadastro {
+    display: flex;
+    margin: 20px 0;
+}
+
+.cadastro span {
+    color: rgb(44, 44, 224);
+    font-weight: bold;
 }
 
 footer {
     margin-top: 20px;
+    padding: 20px 40px;
 }
 
 ul {
